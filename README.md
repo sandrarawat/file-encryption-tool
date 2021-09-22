@@ -22,10 +22,10 @@ PolybiusSquareCypher
 Matrix 
 	This class is used for [creating an array of original indexes](https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L13) and sorts columns alphabetically using the keyword, initialises columns to equal number of letters the key,reads and loops over content column by column and reorders columns.
   
-[Create array of original indexes] (https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L13
-[Sort by column label] (https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L19)
-[Get the column labels for those indexes to compare] (https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L21)
-Initialise columns to equal number of letters the key (https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L33)
-[Add each letter in squareEncryptedContent to the correct column] (https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L38)
-[Append each letter in column to string builder] (https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L50)
+[Create array of original indexes](https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L13)
+[Sort by column label](https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L19)
+[Get the column labels for those indexes to compare](https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L21)
+[Initialise columns to equal number of letters the key]https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L33)
+[Add each letter in squareEncryptedContent to the correct column](https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L38)
+[Append each letter in column to string builder](https://github.com/sandrarawat/file-encryption-tool/blob/ee7ba404000cd78aa1260469b8cd06a4407a72d1/src/ie/gmit/dip/Matrix.java#L50)
 
