@@ -4,7 +4,8 @@ This program encrypts and decrypts from txt files, using a Polybuis Square Cyphe
 
 ![alt text](https://github.com/sandrarawat/file-encryption-tool/blob/master/fileencryptiontoolgif.gif "File Encryption Tool Gif")
 
-##Clases
+##Classes
+
 Runner 
 	This class contains the main method. Using JFrame and JFilechooser this is where user selects file input and output which are required for encryption and decryption.  When the program is run, the user selects Input Filepath, Output Filepath and requires a specific keyword, which the user sets, in order for encryption and decryption to run.
 
