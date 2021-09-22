@@ -2,8 +2,10 @@
 Polybius Square Assignment.
 The Project entitled polybius-square-java contain 5 Classes which I will outline below.
 My references are found at the bottom of each class. This program encrypts and decrypts from txt files.
+<p align="center">
+	![alt text](https://github.com/sandrarawat/file-encryption-tool/blob/master/fileencryptiontoolgif.gif "File Encryption Tool Gif")
+</p>
 
-![alt text](https://github.com/sandrarawat/file-encryption-tool/blob/master/fileencryptiontoolgif.gif "File Encryption Tool Gif")
 
 Runner 
 	This class contains the main method. Using JFrame and JFilechooser this is where user input and output occur which are required for encryption and decryption.  When the program is run, the user selects Input Filepath, Output Filepath and requires a specific keyword, which the user sets, in order for encryption and decryption to run.
