@@ -2,9 +2,6 @@
 Polybius Square Assignment.
 The Project entitled polybius-square-java contain 5 Classes outlined below.
 References are found at the bottom of each class. This program encrypts and decrypts from txt files.
-<p align="center">
-  <img src=![alt text]"(https://github.com/sandrarawat/file-encryption-tool/blob/master/fileencryptiontoolgif.gif "File Encryption Tool Gif")" alt="animated" />
-</p>
 
 ![alt text](https://github.com/sandrarawat/file-encryption-tool/blob/master/fileencryptiontoolgif.gif "File Encryption Tool Gif")
 
