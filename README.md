@@ -1,22 +1,23 @@
 
 # Polybius Square Assignment.
-This program encrypts and decrypts txt files, using a Polybuis Square Cypher.
+This program encrypts and decrypts txt files with a Polybuis Square Cypher. This application is built using Jframe and JFileChooser Graphical User Interface widgets from JSwing.
 
 ![alt text](https://github.com/sandrarawat/file-encryption-tool/blob/master/fileencryptiontoolgif.gif "File Encryption Tool Gif")
 
 ##Classes
 
 ## Runner 
-	This class contains the main method. Using JFrame and JFilechooser this is where user selects file input and output which are required for encryption and decryption.  When the program is run, the user selects Input Filepath, Output Filepath and requires a specific keyword, which the user sets, in order for encryption and decryption to run.
+	This class contains the main method. When the program is run, the user selects Input Filepath, Output Filepath and requires a specific keyword, which the user sets, in order for encryption and decryption to run. JFrame and JFilechooser are used to allow the user to select file input and output.
 
 ## PolybiusSquare
-	This class sets the alphabet Characters to their encoded Characters and vice versa using a Hashmap.
+	This class uses a Hashmmap to set the alphabet Characters to their encoded Characters and encoded characters to the alphabet characters.
 
 ## EncryptDecrypt
-This class creates a [matrix using the key](https://github.com/sandrarawat/file-encryption-tool/blob/74dbc0d14c3ea038904a1b62e2671bbcd55add12/src/ie/gmit/dip/EncryptDecrypt.java#L13) and performs [columnar transposition](https://github.com/sandrarawat/file-encryption-tool/blob/74dbc0d14c3ea038904a1b62e2671bbcd55add12/src/ie/gmit/dip/EncryptDecrypt.java#L16). This class creates encrypted text using the Polybius Square. For decryption it returns the encoded characters to original pairs. This class uses Stringbuilder to add [padding](https://github.com/sandrarawat/file-encryption-tool/blob/74dbc0d14c3ea038904a1b62e2671bbcd55add12/src/ie/gmit/dip/EncryptDecrypt.java#L46) to the Polybius Square to equal keyword length.
+This class creates a [matrix using the key](https://github.com/sandrarawat/file-encryption-tool/blob/74dbc0d14c3ea038904a1b62e2671bbcd55add12/src/ie/gmit/dip/EncryptDecrypt.java#L13) and [columnar transposition](https://github.com/sandrarawat/file-encryption-tool/blob/74dbc0d14c3ea038904a1b62e2671bbcd55add12/src/ie/gmit/dip/EncryptDecrypt.java#L16). This class creates encrypted text using the Polybius Square. For decryption it returns the encoded characters to original pairs. This class uses Stringbuilder to add [padding](https://github.com/sandrarawat/file-encryption-tool/blob/74dbc0d14c3ea038904a1b62e2671bbcd55add12/src/ie/gmit/dip/EncryptDecrypt.java#L46) to the Polybius Square to equal keyword length.
 
 ## PolybiusSquareCypher
-	This class contains the methods for encryption and decryption which uses the matrix and performs columnar Transposition. It contains methods for Encrypt and Decrypt using the Stringbuilder. This class also needs a method for padding the PolybiusSquare to equal keyword length. 
+	This class contains the methods for [encryption](https://github.com/sandrarawat/file-encryption-tool/blob/9851242757098292e10df4ffa99d5cfddaa4adc9/src/ie/gmit/dip/PolybiusSquareCypher.java#L10) and [decryption](https://github.com/sandrarawat/file-encryption-tool/blob/9851242757098292e10df4ffa99d5cfddaa4adc9/src/ie/gmit/dip/PolybiusSquareCypher.java#L21) which uses the Matrix Object and [performs](https://github.com/sandrarawat/file-encryption-tool/blob/9851242757098292e10df4ffa99d5cfddaa4adc9/src/ie/gmit/dip/PolybiusSquareCypher.java#L18) [Columnar Transposition](https://www.google.com/search?q=+Columnar+Transposition&client=safari&rls=en&sxsrf=AOaemvIX09Ll1mEBVm2QOf-Bu2MmPxd-gA:1632391254166&ei=VlBMYefMCbGD8gKBtJn4Dw&oq=+Columnar+Transposition&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAESgQIQRgAUL6pJ1i-qSdgobAnaABwAngAgAFbiAFbkgEBMZgBAKABAqABAcABAQ&sclient=gws-wiz&ved=0ahUKEwjnz9qm65TzAhWxgVwKHQFaBv8Q4dUDCA0&uact=5
+). It contains methods for [Encrypt](https://github.com/sandrarawat/file-encryption-tool/blob/9851242757098292e10df4ffa99d5cfddaa4adc9/src/ie/gmit/dip/PolybiusSquareCypher.java#L29) and [Decrypt](https://github.com/sandrarawat/file-encryption-tool/blob/9851242757098292e10df4ffa99d5cfddaa4adc9/src/ie/gmit/dip/PolybiusSquareCypher.java#L38) using the Stringbuilder. This class also utilises a [method for padding](https://github.com/sandrarawat/file-encryption-tool/blob/9851242757098292e10df4ffa99d5cfddaa4adc9/src/ie/gmit/dip/PolybiusSquareCypher.java#L49) the PolybiusSquare to equal keyword length. 
 
 
 ## Matrix 
